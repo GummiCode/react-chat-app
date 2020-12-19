@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Process Notes
+
+- App created following https://www.freecodecamp.org/news/how-to-build-a-react-js-chat-app-in-10-minutes-c9233794642b/
+- Modifications made to make this a better structured compoennt-based React app.
+- Components segregated into distinct directories for components, helpers etc.
+- The chat client proposed in the tutorial (Puisher Chatkit) is depreciated.
+- Used twilio instead:  https://www.twilio.com/docs/chat
+- Guidance on setting up a chat client: https://github.com/TwilioDevEd/sdk-starter-node
+- Used their boilerplate chat app, and integrated features of it with my app.
